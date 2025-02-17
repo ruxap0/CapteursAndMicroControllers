@@ -94,7 +94,7 @@ void loop() {
         beatAvg = 0;
         for (byte x = 0 ; x < RATE_SIZE  ; x++)
           beatAvg += rates[x];
-        beatAvg %= RATE_SIZE;
+        beatAvg /= RATE_SIZE;
       }
     }
 
