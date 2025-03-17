@@ -12,7 +12,7 @@
 const char* ssid = "yourWifi";
 const char* password = "yourPassword";
 
-// My computer's IP address and port (shuuuuuuut no one can know)
+// My computer's IP address and port
 const char* serverIP = "yourComputerIP";
 const int serverPort = 5000;
 
