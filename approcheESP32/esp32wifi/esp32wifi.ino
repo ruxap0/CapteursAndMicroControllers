@@ -9,11 +9,11 @@
 #define pinGreen 34
 
 // WiFi network details
-const char* ssid = "ILoveCycling";
-const char* password = "KiwiKiwiKlan";
+const char* ssid = "yourWifi";
+const char* password = "yourPassword";
 
 // My computer's IP address and port (shuuuuuuut no one can know)
-const char* serverIP = "192.168.32.147";
+const char* serverIP = "yourComputerIP";
 const int serverPort = 5000;
 
 WiFiClient client;
